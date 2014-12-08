@@ -4,6 +4,6 @@ Goal of the repo is to scrape dblp for particular conferences, then see if the p
 
 to run:
 
-python scrapeDBLP.py <conf. name as in dblp, for ex: jcdl/sigir> <start year (2000)> endyear <2013> <outputfilename to save dblp scraping output>
+python scrapeDBLP.py [conf. name as in dblp, for ex: jcdl/sigir] [start year (2000) [endyear (2013)] [outputfilename to save dblp scraping output]
 
-python scholar-check-opensource-inptxt.py <outputfilename to save dblp scraping output> <csv-file-to-save-the-open-source-data>
+python scholar-check-opensource-inptxt.py [outputfilename to save dblp scraping output] [csv-file-to-save-the-open-source-data]
